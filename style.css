@@ -4,14 +4,13 @@ html, body {
 }
 
 .wonders-list {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-family: 'com', sans-serif;
+  font-size: 25px;
   margin: 20px 0;
 }
 
 .wonders-list li {
-  font: comicsans;
-  color: hotpink;
+  color: gold;
   list-style: none;
   margin-bottom: 10px;
 }
@@ -26,6 +25,12 @@ html, body {
   cursor: pointer;
 }
 
+.based {
+  font-size: 50px;
+  font-family: "comic sans MS";
+  color: hotpink;
+  cursor: pointer;
+}
 
 body {
   background-image: url('https://imgs.search.brave.com/DHqH0lXIx8wsYw2jNTjpSNPzSbQ1fK76YkeEsVpa_fE/rs:fit:1000:667:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9paW1nLmNv/bS9waG90by82MjAz/MzA2OS8uanBn');
