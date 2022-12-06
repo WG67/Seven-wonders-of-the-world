@@ -3,5 +3,36 @@ html, body {
   width: 100%;
 }
 
+.wonders-list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.wonders-list li {
+  font: comicsans;
+  color: hotpink;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.wonders-list li:before {
+  content: "🏺";
+  margin-right: 10px;
+}
+
+.wonders-list li:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+
+body {
+  background-image: url('https://imgs.search.brave.com/DHqH0lXIx8wsYw2jNTjpSNPzSbQ1fK76YkeEsVpa_fE/rs:fit:1000:667:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9paW1nLmNv/bS9waG90by82MjAz/MzA2OS8uanBn');
+  opacity: 1.2;
+  background-size: cover;
+  background-position: center;
+}
+
 
 
